@@ -36,3 +36,19 @@
     }
   }
 }
+
+.alt-link {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: $textMuted;
+
+  a {
+    color: lighten($accent, 10%);
+    text-decoration: underline;
+    font-weight: 500;
+
+    &:hover {
+      color: $accent;
+    }
+  }
+}
