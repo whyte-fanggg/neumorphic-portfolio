@@ -1,0 +1,80 @@
+@use "../styles/variables" as *;
+
+.project-card {
+  background: $bgDark;
+  border-radius: 20px;
+  box-shadow: $convex;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.5rem;
+  transition: all 0.1s ease;
+
+
+  .card-header {
+    h3 {
+      font-family: $fontTitle;
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+      color: #fff;
+    }
+    .subtitle {
+      font-family: $fontBody;
+      font-size: 0.9rem;
+      font-weight: 400;
+      color: $accent;
+      margin-top: -0.25rem;
+      margin-bottom: 0.8rem;
+    }
+
+    .description {
+      font-family: $fontBody;
+      font-size: 0.95rem;
+      color: $textMuted;
+      line-height: 1.5;
+    }
+  }
+
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+
+    .pill {
+      background: lighten($bgDark, 5%);
+      border-radius: 999px;
+      padding: 0.35rem 0.75rem;
+      font-size: 0.8rem;
+      font-family: $fontBody;
+      box-shadow: $innerConcave;
+    }
+  }
+
+  .card-footer {
+    margin-top: auto;
+    text-align: right;
+
+    .view-btn {
+      display: inline-block;
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: $accent;
+      text-decoration: none;
+      padding: 0.5rem 1.2rem;
+      border-radius: 999px;
+      background: $bgDark;
+      box-shadow: $convex;
+      transition: background 0.3s;
+
+      &:hover {
+        box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3),
+          -4px -4px 8px rgba(255, 255, 255, 0.03);
+      }
+
+      &:active {
+        box-shadow: $innerConcave;
+      }
+    }
+  }
+}

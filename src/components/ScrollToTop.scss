@@ -1,0 +1,35 @@
+@use "../styles/variables" as *;
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: $bgDark;
+  color: $accent;
+  border: none;
+  box-shadow: $convex;
+  cursor: pointer;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+
+  &:hover {
+    box-shadow: 0 0 0 2px rgba($accent, 0.2), $convex;
+    transform: translateY(-1px);
+    color: lighten($accent, 5%);
+  }
+
+  &:active {
+    box-shadow: $innerConcave;
+  }
+}
+
+.arrow {
+  font-size: 1.8rem; // Try 1.6rem or 2rem for larger
+  line-height: 1;
+}

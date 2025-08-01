@@ -1,0 +1,23 @@
+@use './variables' as *;
+@use './mixins' as *;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Josefin+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: $bgDark;
+  font-family: $fontBody;
+  color: #ccc;
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}

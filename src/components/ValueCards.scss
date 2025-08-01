@@ -1,0 +1,45 @@
+@use "../styles/variables" as *;
+
+.value-cards {
+  margin: 6rem 3rem;
+  text-align: center;
+
+  h3 {
+    font-size: 1.8rem;
+    font-family: $fontTitle;
+    margin-bottom: 2.5rem;
+  }
+
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem; // reduced from 2rem
+    justify-items: center;
+  }
+
+  .value-card {
+    background: $bgDark;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: $convex;
+    max-width: 300px;
+    transition: all 0.3s ease;
+
+    h4 {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+      font-family: $fontTitle;
+      color: #fff;
+    }
+
+    p {
+      font-size: 0.95rem;
+      color: $textMuted;
+      font-family: $fontBody;
+    }
+
+    &:hover {
+      box-shadow: $innerConcave;
+    }
+  }
+}

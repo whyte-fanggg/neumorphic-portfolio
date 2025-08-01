@@ -1,0 +1,29 @@
+@use "../styles/variables" as *;
+
+.quote-block {
+  margin: 5rem auto;
+  max-width: 800px;
+  background: linear-gradient(
+    145deg,
+    lighten($accent, 10%),
+    darken($accent, 10%)
+  );
+  box-shadow: $convex;
+  border-radius: 20px;
+  padding: 2rem 3rem;
+  text-align: center;
+
+  p {
+    margin: 0;
+    color: darken($bgDark, 5%) !important;
+    font-family: $fontTitle !important;
+    font-size: 1.1rem !important;
+    font-weight: 400 !important;
+    opacity: 1 !important;
+    filter: none !important;
+
+    strong {
+      font-weight: 900;
+    }
+  }
+}

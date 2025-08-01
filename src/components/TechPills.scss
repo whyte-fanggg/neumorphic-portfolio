@@ -1,0 +1,51 @@
+@use "../styles/variables" as *;
+
+.tech-pills {
+  margin-top: 4rem;
+  text-align: center;
+
+  h3 {
+    font-family: $fontTitle;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+  }
+
+  .pill-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem 2rem;
+  }
+
+  .pill {
+    display: flex;
+    align-items: center; // vertically centers icon and label
+    justify-content: center; // centers the whole content
+    gap: 0.8rem;
+    padding: 0.7rem 1.4rem;
+    background: $bgDark;
+    box-shadow: $convex;
+    border-radius: 30px;
+    font-family: $fontBody;
+    font-size: 0.95rem;
+    color: #eee;
+    transition: all 0.2s ease;
+
+    img,
+    .emoji {
+      width: 20px;
+      height: 20px;
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    .emoji {
+      font-size: 1.2rem;
+    }
+
+    &:hover {
+      box-shadow: $innerConcave;
+    }
+  }
+}

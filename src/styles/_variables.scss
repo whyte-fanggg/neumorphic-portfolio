@@ -1,0 +1,18 @@
+// Colors
+$bgDark: #1a1a1a;
+$bgLight: #f0f0f3;
+$accent: #f8b26a;
+$textMuted: #999;
+
+// Typography
+$fontTitle: "Josefin Sans", sans-serif;
+$fontBody: "Abel", sans-serif;
+
+// Neumorphism Shadows
+$convex: 6px 6px 12px rgba(0, 0, 0, 0.3),
+  -6px -6px 12px rgba(255, 255, 255, 0.05);
+
+$innerConcave: inset 3px 3px 6px rgba(0, 0, 0, 0.3),
+  inset -3px -3px 6px rgba(255, 255, 255, 0.05);
+$concave: inset 6px 6px 12px rgba(0, 0, 0, 0.3),
+  inset -6px -6px 12px rgba(255, 255, 255, 0.05);
