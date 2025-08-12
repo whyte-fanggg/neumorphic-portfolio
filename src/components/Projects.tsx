@@ -3,6 +3,48 @@ import ProjectCard from "./ProjectCard"
 
 const projects = [
   {
+    title: "LocalHarvest",
+    subtitle: "Micro Produce Marketplace",
+    description:
+      "A full-stack mini marketplace where local growers can list fresh produce and neighbors can reserve them. Includes image uploads, quantity-aware reservations, and pickup tracking.",
+    tech: [
+      "⚛️ React",
+      "📝 TypeScript",
+      "💨 TailwindCSS v4",
+      "🎞️ Framer Motion",
+      "🔥 Firebase",
+    ],
+    link: "https://localharvest-eta.vercel.app/",
+  },
+  {
+    title: "Lunaria",
+    subtitle: "Mood & Music Journal",
+    description:
+      "A pastel-themed, single-page app to track your daily moods and songs. Includes animated mood cards, emoji filters, mood charts, and Firebase integration for user data and logs.",
+    tech: [
+      "⚛️ React",
+      "📝 TypeScript",
+      "🎞️ Framer Motion",
+      "💨 TailwindCSS v4",
+      "🔥 Firebase",
+    ],
+    link: "https://lunaria-frontend.vercel.app/",
+  },
+    {
+    title: "Taskbento",
+    subtitle: "Bento-Style Visual Task Manager",
+    description:
+      "A visual daily task manager inspired by bento layouts with claymorphic pastel tiles, drag-and-drop, and Firebase Firestore integration.",
+    tech: [
+      "⚛️ React",
+      "📝 TypeScript",
+      "🎞️ Framer Motion",
+      "🔥 Firebase",
+      "💠 Styled Components",
+    ],
+    link: "https://taskbento.vercel.app/",
+  },
+  {
     title: "Smart Expense Tracker",
     subtitle: "Budget Dashboard + Chart.js Visuals",
     description:
@@ -79,34 +121,6 @@ const projects = [
       "🛠️ Supabase",
     ],
     link: "https://silent-auction-hub.vercel.app/",
-  },
-  {
-    title: "Lunaria",
-    subtitle: "Mood & Music Journal",
-    description:
-      "A pastel-themed, single-page app to track your daily moods and songs. Includes animated mood cards, emoji filters, mood charts, and Firebase integration for user data and logs.",
-    tech: [
-      "⚛️ React",
-      "📝 TypeScript",
-      "🎞️ Framer Motion",
-      "💨 TailwindCSS v4",
-      "🔥 Firebase",
-    ],
-    link: "https://lunaria-frontend.vercel.app/",
-  },
-  {
-    title: "LocalHarvest",
-    subtitle: "Micro Produce Marketplace",
-    description:
-      "A full-stack mini marketplace where local growers can list fresh produce and neighbors can reserve them. Includes image uploads, quantity-aware reservations, and pickup tracking.",
-    tech: [
-      "⚛️ React",
-      "📝 TypeScript",
-      "💨 TailwindCSS v4",
-      "🎞️ Framer Motion",
-      "🔥 Firebase",
-    ],
-    link: "https://localharvest-eta.vercel.app/",
   },
 ]
 

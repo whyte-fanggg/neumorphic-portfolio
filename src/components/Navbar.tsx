@@ -11,6 +11,9 @@ export default function Navbar() {
           <a href="#about">About</a>
         </li>
         <li>
+          <a href="#resume">Resume</a>
+        </li>
+        <li>
           <a href="#projects">Projects</a>
         </li>
         <li>

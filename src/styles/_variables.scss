@@ -16,3 +16,7 @@ $innerConcave: inset 3px 3px 6px rgba(0, 0, 0, 0.3),
   inset -3px -3px 6px rgba(255, 255, 255, 0.05);
 $concave: inset 6px 6px 12px rgba(0, 0, 0, 0.3),
   inset -6px -6px 12px rgba(255, 255, 255, 0.05);
+
+// Transitions
+$tr-fast: 160ms ease;
+$tr: 240ms ease;

@@ -5,6 +5,8 @@ import Projects from "./components/Projects"
 import Contact from "./components/Contact"
 import Footer from "./components/Footer"
 import ScrollToTop from "./components/ScrollToTop"
+// import ResumeTimeline from "./components/ResumeTimeline"
+import Resume from "./components/Resume"
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <Resume />
       <Projects />
       <Contact />
       <Footer />
