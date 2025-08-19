@@ -30,7 +30,7 @@ const projects = [
     ],
     link: "https://lunaria-frontend.vercel.app/",
   },
-    {
+  {
     title: "Taskbento",
     subtitle: "Bento-Style Visual Task Manager",
     description:
@@ -67,18 +67,18 @@ const projects = [
     link: "https://zenaura-silk.vercel.app",
   },
   {
-    title: "Taskbento",
-    subtitle: "Bento-Style Visual Task Manager",
+    title: "Brain Sprint",
+    subtitle: "60-Second Brain Challenges",
     description:
-      "A visual daily task manager inspired by bento layouts with claymorphic pastel tiles, drag-and-drop, and Firebase Firestore integration.",
+      "A trio of mini-games (Quick Math, Color Match, Memory Flip) with difficulty levels, daily seed, race-proof per-question timers, results analytics, and a tutorial modal.",
     tech: [
       "⚛️ React",
       "📝 TypeScript",
+      "💨 TailwindCSS v4",
       "🎞️ Framer Motion",
-      "🔥 Firebase",
-      "💠 Styled Components",
+      "🧠 Zustand",
     ],
-    link: "https://taskbento.vercel.app/",
+    link: "https://brain-sprint-delta.vercel.app/>",
   },
   {
     title: "GlobeQuest",
