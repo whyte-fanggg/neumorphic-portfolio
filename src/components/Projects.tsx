@@ -78,7 +78,7 @@ const projects = [
       "🎞️ Framer Motion",
       "🧠 Zustand",
     ],
-    link: "https://brain-sprint-delta.vercel.app/>",
+    link: "https://brain-sprint-delta.vercel.app",
   },
   {
     title: "GlobeQuest",
